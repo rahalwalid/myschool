@@ -1,0 +1,2 @@
+USE myschool;
+ALTER TABLE messages ADD COLUMN file VARCHAR(255) NULL, ADD COLUMN file_name VARCHAR(150) NULL;
